@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <!--Lien de code pour les icones-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Alexis MENEZ</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Alexis Menez</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#acceuil" class="nav__link active">Acceuil</a></li>
+                        <li class="nav__item"><a href="#apropos" class="nav__link">A propos</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!-- Onglet ACCEUIL -->
+            <section class="acceuil" id="acceuil">
+                <div class="acceuil__container">
+                    <h1 class="acceuil__title"><span>HE</span><br>LLO.</h1>
+
+                    <div class="acceuil__scroll">
+                        <a href="#apropos" class="acceuil__scroll-link"><i class='bx bxs-up-arrow-circle'></i>Scroll down</a>
+                    </div>
+
+                    <a href="CV/CV_MENEZ_Alexis.pdf" download class="cv">TELECHARGER MON CV</a>
+
+                    <img src="Images/photo_acceuil.png" alt="" class="acceuil__img">
+                </div>
+            </section>
+            <!-- Onglet A PROPOS -->
+            <section class="apropos section" id="apropos">
+                <h2 class="section-title">A propos</h2>
+
+                <div class="apropos__container bg-grid">
+                    <div class="apropos__img">
+                        <img src="Images/photo_acceuil.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="apropos__subtitle">I'am Alexis MENEZ</h2>
+                        <span class="apropos__profession">Apprenti Développeur Web</span>
+                        <p class="apropos__text">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+
+                        <div class="apropos__social">
+                            <a href="https://www.instagram.com/alex_mnz__/" class="apropos__social-icon"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="https://github.com/Alexmz1/" class="apropos__social-icon"><i class='bx bxl-github'></i></a>
+                            <a href="https://www.linkedin.com/in/menez-alexis/" class="apropos__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Onglet SKILLS -->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bg-grid">
+                    <h3 class="skills__subtitle">Développement</h3>
+                    <span class="skills__name">Html</span>
+                    <span class="skills__name">CSS</span>
+                    <span class="skills__name">JavaScript</span>
+                    <span class="skills__name">PHP</span>
+                    <span class="skills__name">SQL</span>
+
+                    <h3 class="skills__subtitle">Design</h3>
+                    <span class="skills__name">Photoshop</span>
+                </div>
+
+                <div class="skills__img">
+                    <!--  <img src="Images/Skills.jpeg" alt="">  -->
+                </div>
+            </section>
+
+            <!-- Onglet PORTFOLIO -->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__container bg-grid">
+                    <div class="portfolio__img">
+                        <img src="Images/projet1.jpeg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="Images/projet2.jpeg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="Images/projet3.jpeg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Onglet CONTACT -->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bg-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Email</h3>
+                        <span class="contact__text">info.mail.com</span>
+
+                        <h3 class="contact__subtitle">Téléphone</h3>
+                        <span class="contact__text">+330.00.00.00.00</span>
+
+                        <h3 class="contact__subtitle">Adresse</h3>
+                        <span class="contact__text">France</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Nom" class="contact__input">
+                            <input type="mail" placeholder="E-mail" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="Envoyer" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+
+        <!-- FOOTER -->
+        <footer class="footer section">
+            <div class="footer__container bg-grid">
+                <div class="footer__donnees">
+                    <h2 class="footer__title">Alexis MENEZ</h2>
+                    <p class="footer__text">Je suis Alexis MENEZ et voici mon site personnel</p>
+                </div>
+
+                <div class="footer__donnees">
+                    <h2 class="footer__title">Plus sur moi...</h2>
+                    <ul>
+                        <li><a href="#acceuil" class="footer__link">Acceuil</a></li>
+                        <li><a href="#apropos" class="footer__link">A propos</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__donnees">
+                    <h2 class="footer__title">Suivez-moi sur...</h2>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <!--Lien pour les effets du scroll de la page-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--Lien ver ma page JavaScript-->
+        <script src="main.js"></script>
+    </body>
+</html>
